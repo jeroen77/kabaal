@@ -1,0 +1,12 @@
+.kabaal_header {
+    background: url('../images/kabaal_header.jpg') no-repeat;
+    height: 205px;
+    width: 750px;
+
+}
+
+.thumbnail img {
+
+    min-height:180px;
+
+}
