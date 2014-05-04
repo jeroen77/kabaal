@@ -1,5 +1,4 @@
 body{
-
     font-family: Georgia, Times, "Times New Roman", serif;
 }
 
@@ -29,7 +28,7 @@ a, a:hover {
     background-color: black;
     box-sizing:border-box;
     -moz-box-sizing:border-box;
-    padding: 0 5px;
+    padding: 0px 5px 0;
 }
 
 .black-bar a {
@@ -42,9 +41,10 @@ a, a:hover {
 }
 
 .header-title {
-    font-size: 22px;
-    font-family: "Arial";
+    font-size: 21px;
+    font-family: "Arial Black";
     margin-top: 10px;
+
 }
 
 .navbar-nav>li>a {
@@ -62,9 +62,7 @@ a, a:hover {
 .navbar {
     border-radius: 0;
 }
-.navbar-toggle {
 
-}
 .kabaal-carousel img {
     max-height: 400px;
 
