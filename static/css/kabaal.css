@@ -1,7 +1,6 @@
 body{
 
     font-family: Georgia, Times, "Times New Roman", serif;
-
 }
 
 a, a:hover {
@@ -17,13 +16,11 @@ a, a:hover {
     vertical-align: bottom;
     width: 600px;
     height: 175px;
-
 }
 
 .thumbnail img {
 
     min-height:180px;
-
 }
 
 .black-bar {
@@ -39,7 +36,7 @@ a, a:hover {
     color: lightgrey;
 }
 
-.top-bar {
+.top-bar, .top-bar a {
     font-size: 14px;
     text-align: right;
 }
@@ -57,13 +54,17 @@ a, a:hover {
     text-transform: uppercase;
 }
 
-.navbar-collapse {
+.navbar-kabaal {
     border-top:double 4px black;
     border-bottom:solid 1px black;
-
-
 }
 
+.navbar {
+    border-radius: 0;
+}
+.navbar-toggle {
+
+}
 .kabaal-carousel img {
     max-height: 400px;
 
@@ -92,4 +93,9 @@ li span {
     font-size: 12px;
 
 }
+
+.icon-bar {
+  color:#000000;
+}
+
 
