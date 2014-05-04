@@ -98,4 +98,9 @@ li span {
   color:#000000;
 }
 
+div[class*='col-sm']  {
+    min-height: 300px;
+}
+
+
 
