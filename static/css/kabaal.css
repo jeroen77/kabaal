@@ -1,7 +1,22 @@
+body{
+
+    font-family: Georgia, Times, "Times New Roman", serif;
+
+}
+
+a, a:hover {
+  color: black;
+    font-weight: bold;
+}
 .kabaal_header {
-    background: url('../images/kabaal_header.jpg') no-repeat;
-    height: 205px;
-    width: 750px;
+    background: url('../images/kabaal-logo.jpg') no-repeat;
+
+    background-size: 500px auto;
+    background-position: -45px 0;
+    display: table-cell;
+    vertical-align: bottom;
+    width: 600px;
+    height: 175px;
 
 }
 
@@ -10,3 +25,71 @@
     min-height:180px;
 
 }
+
+.black-bar {
+    color: white;
+    text-transform: uppercase;
+    background-color: black;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    padding: 0 5px;
+}
+
+.black-bar a {
+    color: lightgrey;
+}
+
+.top-bar {
+    font-size: 14px;
+    text-align: right;
+}
+
+.header-title {
+    font-size: 22px;
+    font-family: "Arial";
+    margin-top: 10px;
+}
+
+.navbar-nav>li>a {
+    color: black;
+    font-family: georgia;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.navbar-collapse {
+    border-top:double 4px black;
+    border-bottom:solid 1px black;
+
+
+}
+
+.kabaal-carousel img {
+    max-height: 400px;
+
+}
+
+.colum-photo img {
+    max-height: 300px;
+    max-width: 500px;
+    width: 100%;
+}
+ul {
+    -webkit-padding-start: 15px;
+    -moz-padding-start: 15px;
+    padding-start: 15px;
+    list-style-type: square;
+}
+
+h2 {
+    font-weight: bold;
+    margin:8px 0 5px;
+}
+
+li span {
+    color: darkgray;
+    font-style: italic;
+    font-size: 12px;
+
+}
+
