@@ -87,7 +87,7 @@ h2 {
     text-transform: capitalize;
 }
 
-li span {
+li span, .img-caption {
     color: darkgray;
     font-style: italic;
     font-size: 12px;
@@ -99,7 +99,7 @@ li span {
 }
 
 div[class*='col-sm']  {
-    min-height: 300px;
+    min-height: 270px;
 }
 
 
