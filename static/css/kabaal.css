@@ -69,6 +69,11 @@ a, a:hover {
 
 }
 
+.navbar-toggle {
+    border-color: lightgrey;
+    font-size: 18px;
+}
+
 .colum-photo img {
     max-height: 300px;
     max-width: 500px;
